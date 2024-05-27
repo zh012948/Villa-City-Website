@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    
+    height: 50px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin: 4px;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar a:hover{
+    background: white;
+    color: black;
+}
+.header{
+    position: relative;
+    min-height: 100vh;
+    background: url(1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .top p{
+    margin-top: 150px;
+    background: white;
+    color: rebeccapurple;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.content .top h1{
+    justify-content: center;
+    color: white;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 50px 50px; 
+    margin: 10px;
+    background-color: azure;
+}
+
+ .img_container img{
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.mid_content{
+margin: 20px;
+padding: 50px;
+width: 300px;
+object-fit: cover;
+aspect-ratio: 1/1;
+
+}
+
+.question{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: orangered;
+}
+
+.box{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+
+}
+.sub_box{
+    margin: 10px;
+}
+
+.dealer{
+    display: flex;
+    flex-direction: column; 
+     justify-content: center; 
+     align-items: center;
+     margin: 10px; 
+    min-height: 100vh;
+}
+
+.dealer h1{
+    font-size: 1.5rem;
+    /* margin-bottom: 10px; */
+}
+
+.dealer_box img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.deals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    object-fit: cover;
+    gap: 120px;
+    margin: 10px;
+}
+
+
+.dealer_box {
+    width: 300px;
+    height: 300px;
+}
+
+
+.symbol{
+    display: inline;
+    background: orange;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.one-line{
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+}
+
+.one-line .price{
+align-items: flex-end;
+color: orangered;
+font-size: 1.2rem;
+}
+
+.deal_location{
+    margin: 10px;
+
+}
+
+
+.detail_box{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+object-fit: cover;
+margin-bottom  : 10px;
+}
+
+.shedule_box{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.shedule
+{
+    /* border: 1px solid black;     */
+    text-align: center;
+    font-size: 1rem;
+    padding: 12px 30px;
+    background: black;
+    border-radius: 30px;
+    color: white;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+
+
+.contact_box
+{
+  position: relative;  
+
+}
